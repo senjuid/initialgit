@@ -1,0 +1,7 @@
+git clone
+git checkout develop
+git branch --all
+git branch -D develop
+git reset --hard HEAD
+git status
+git clean -fd
